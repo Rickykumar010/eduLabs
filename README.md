@@ -75,7 +75,7 @@ This is a Task Management API built using Node.js, Express, and MongoDB. It incl
       "priority": "high"
     }
 
-    #### 4. **Update a New Task**
+    #### 4. **Create a New Task**
 - **URL:** `/tasks/:id`
 - **Method:** `PUT`
 - **Headers:**
@@ -90,7 +90,7 @@ This is a Task Management API built using Node.js, Express, and MongoDB. It incl
       "status": "pending",
       "priority": "high"
     }
-    #### 4. **Create a New Task**
+    #### 4. **Update a New Task**
 - **URL:** `/tasks/:id`
 - **Method:** `DELETE`
 - **Headers:**
