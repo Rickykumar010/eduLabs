@@ -20,7 +20,7 @@ This is a Task Management API built using Node.js, Express, and MongoDB. It incl
 - JWT (JSON Web Tokens)
 - bcrypt (for password hashing)
 
-### Prerequisites
+### Prerequisites.
 
 - Node.js (v14 or higher)
 - MongoDB (local or remote instance)
