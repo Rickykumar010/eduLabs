@@ -47,7 +47,7 @@ userRouter.post("/login", async (req, res) => {
     }
 });
 
-//admin route
+//admin routes
 userRouter.get('/admin', auth, roleBased(['admin']), (req, res) => {
     res.json({ message: 'Hello Adminnnnnn' });
 });
