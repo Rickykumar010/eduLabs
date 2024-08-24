@@ -10,7 +10,7 @@ app.use(express.json());
 app.use( userRouter);
 app.use( taskRouter);
 
-app.listen('/home',(req,res)=>{
+app.get('/home',(req,res)=>{
     res.json({msg:"hiiiii home"})
 })
 app.listen(port, async () => {
